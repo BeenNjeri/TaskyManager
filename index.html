@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="styling.css" />
+
+</head>
+<body>
+
+    <script src=""></script>
+
+    <div class="container">
+        <div class="todo_wrap">
+                <h1>TASKY</h1>
+                <h3>ORGANIZE THE WIN </h3>
+                <h4>GITHUB BEENNJERI</h4>
+                <br />
+            <input type="text" class="todo_name" />
+            <button class="add_todo">Add</button>
+            <div class="wrapper">
+
+            </div>
+        </div>
+        <h1>Lets Orgainze</h1>
+        <br />
+        <div class="sortarea" dropzone="true" ondrop="drop(event)" ondragover="dragOver(event)">
+            <div class="drop" ondrop="drop(event)" dropzone="true" id="started"><h3>Started</h3></div>
+            <div class="drop" dropzone="true" id="review"><h3>Review</h3></div>
+            <div class="drop" dropzone="true "id="completed"><h3>Completed</h3></div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
