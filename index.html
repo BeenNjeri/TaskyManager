@@ -13,10 +13,20 @@
 
     <div class="container">
         <div class="todo_wrap">
-                <h1>TASKY</h1>
-                <h3>ORGANIZE THE WIN </h3>
-                <h4>GITHUB BEENNJERI</h4>
-                <br />
+            <h1>TASKY</h1>
+            <h3>ORGANIZE THE WIN </h3>
+            <h4>GITHUB BEENNJERI</h4>
+            <br />
+            <label class="datelabel">Due Date <input type="date" class="todo_date" /></label>
+            <br />
+            <label class="todolabel">Priority</label><br />
+            <span class="plvl">
+                 <label class="priority"><input type="radio" name="prior" value=0  id="none" class="todo_lvl" />None</label>
+                 <label class="priority"><input type="radio" name="prior" value=1 id="none" class="todo_lvl" />Low</label>
+                 <label class="priority"><input type="radio" name="prior" value=3 id="none" class="todo_lvl" />High</label>
+            </span>
+            </br>
+            <label class="todolabel"> Enter Task </label>
             <input type="text" class="todo_name" />
             <button class="add_todo">Add</button>
             <div class="wrapper">
